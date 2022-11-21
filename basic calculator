@@ -1,0 +1,23 @@
+num1=int(input("enter a number: "))
+num2=int(input("enter a number"))
+
+choice=input("enter your choice: ")
+
+if choice == "+":
+	total=num1+num2
+	print(total)
+
+elif choice == "-":
+	total=num1-num2
+	print(total)
+	
+elif choice == "/":
+	total=num1/num2
+	print(total)
+	
+elif choice == "*":
+	total=num1*num2
+	print(total)
+	
+else:
+	print(error)
